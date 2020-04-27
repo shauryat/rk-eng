@@ -253,7 +253,7 @@ function Footer() {
       columnNumber: 11
     }
   }, __jsx("a", {
-    href: "https://github.com/zeit/next.js/tree/canary/examples/".concat(_lib_constants__WEBPACK_IMPORTED_MODULE_2__["EXAMPLE_PATH"]),
+    href: "https://github.com/shauryat/nextjs-blog-cms",
     className: "mx-3 font-bold hover:underline",
     __self: this,
     __source: {
