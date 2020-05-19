@@ -282,12 +282,27 @@ var TechnoPortfolioM = /*#__PURE__*/function (_Component) {
           lineNumber: 36,
           columnNumber: 1
         }
-      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        bottom: true,
+      }, __jsx("div", {
+        className: "-my-8 ml-24 w-2/3",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37,
+          columnNumber: 1
+        }
+      }, " ", __jsx(_images_folios_techstackimage__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 37
+        }
+      }), "  "), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        bottom: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
           columnNumber: 6
         }
       }, " ", __jsx("div", {
@@ -295,31 +310,16 @@ var TechnoPortfolioM = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37,
+          lineNumber: 38,
           columnNumber: 20
         }
-      }, " Tech-Stack "), " "), __jsx("div", {
-        className: "my-4 mx-auto w-2/3",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38,
-          columnNumber: 12
-        }
-      }, __jsx(_images_folios_techstackimage__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 15
-        }
-      })), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_8___default.a, {
+      }, " Tech-Stack "), " "), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_8___default.a, {
         style: styles.root,
         slideStyle: styles.slideContainer,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 39,
           columnNumber: 13
         }
       }, tech.map(function (_ref) {
@@ -331,7 +331,7 @@ var TechnoPortfolioM = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 43,
+            lineNumber: 41,
             columnNumber: 21
           }
         }, __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -342,7 +342,7 @@ var TechnoPortfolioM = /*#__PURE__*/function (_Component) {
           __self: _this2,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44,
+            lineNumber: 42,
             columnNumber: 23
           }
         }));
@@ -351,14 +351,14 @@ var TechnoPortfolioM = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 45,
           columnNumber: 10
         }
       }, __jsx(_images_decorations_blob2__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47,
+          lineNumber: 45,
           columnNumber: 76
         }
       })));
@@ -1113,12 +1113,27 @@ var PortfolioM = /*#__PURE__*/function (_Component) {
           lineNumber: 40,
           columnNumber: 5
         }
-      }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
-        bottom: true,
+      }, __jsx("div", {
+        className: "ml-4 my-2 w-2/3",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 41,
+          columnNumber: 8
+        }
+      }, " ", __jsx(_images_folios_projectimage__WEBPACK_IMPORTED_MODULE_14__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 42
+        }
+      }), " "), __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        bottom: true,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
           columnNumber: 7
         }
       }, " ", __jsx("div", {
@@ -1126,32 +1141,17 @@ var PortfolioM = /*#__PURE__*/function (_Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41,
+          lineNumber: 42,
           columnNumber: 21
         }
-      }, " Projects "), " "), __jsx("div", {
-        className: "my-4 mx-auto w-2/3",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 6
-        }
-      }, " ", __jsx(_images_folios_projectimage__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42,
-          columnNumber: 43
-        }
-      }), " "), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_10___default.a, {
+      }, " Projects "), " "), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_10___default.a, {
         style: styles.root,
         slideStyle: styles.slideContainer,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43,
-          columnNumber: 6
+          columnNumber: 7
         }
       }, projects.map(function (_ref) {
         var id = _ref.id,

@@ -38,9 +38,9 @@ constructor(props){
         return (
 
     <div>
+       <div className='ml-4 my-2 w-2/3'> <ProImage/> </div>
       <Fade bottom> <div className='text-teal-400 text-bold text-center text-6xl font-mono'> Projects </div> </Fade>
-     <div className='my-4 mx-auto w-2/3'> <ProImage/> </div>       
-     <SwipeableViews style={styles.root} slideStyle={styles.slideContainer}>
+      <SwipeableViews style={styles.root} slideStyle={styles.slideContainer}>
              {projects.map(({id, title, description,imageUrl})=> (
                           <ProjectCards key={id} title={title} description={description} imageUrl={imageUrl}/> 
                         ))}
