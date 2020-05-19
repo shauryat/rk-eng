@@ -938,14 +938,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         lineNumber: 25,
         columnNumber: 9
       }
-    }, __jsx("title", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 11
-      }
-    }, "My page"), this.props.styleTags), __jsx("body", {
+    }, this.props.styleTags), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
