@@ -2,15 +2,14 @@ import HomeImage from '../components/images/home/homeimage';
 import WaveBorder from '../components/WaverBorder';
 import { Breakpoint, BreakpointProvider  } from 'react-socks';
 import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import Grid from '@material-ui/core/Grid';
-import Header from '../components/header';
-import Portfolio from '../components/Portfolio';
-import TechnoPortfolio from '../components/Technolgyfolio';
-import PortfolioM from '../components/PortfolioM';
-import TechnoPortfolioM from '../components/TechnofolioM';
+
+import Portfolio from '../components/projectfolio/Portfolio';
+import TechnoPortfolio from '../components/Techfolio/Technolgyfolio';
+
+import PortfolioM from '../components/projectfolio/PortfolioM';
+import TechnoPortfolioM from '../components/Techfolio/TechnofolioM';
 
 
 
@@ -62,19 +61,21 @@ const Index = () => (
             lowerColor="#fff"
             animationNegativeDelay={4}/>
           </Breakpoint>
-   </div>
-   <div className='m-12'>
+       </div>
+          <div className='m-12'>
+            {/* mobile only */}
+             <Breakpoint small down>
+                <PortfolioM/>
+                <TechnoPortfolioM/>
+            </Breakpoint>
 
-   <Breakpoint small down>
-   <PortfolioM/>
-   <TechnoPortfolioM/>
-   </Breakpoint>
+             {/* desktop only */}
+          <Breakpoint medium up>
+             <TechnoPortfolio/>
+             <Portfolio/>
+           </Breakpoint>
+         </div>
 
-   <Breakpoint medium up>
-   <TechnoPortfolio/>
-   <Portfolio/>
-   </Breakpoint>
-   </div>
    </BreakpointProvider>
 )
 
