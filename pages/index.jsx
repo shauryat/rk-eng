@@ -9,11 +9,15 @@ import Grid from '@material-ui/core/Grid';
 import Header from '../components/header';
 import Portfolio from '../components/Portfolio';
 import TechnoPortfolio from '../components/Technolgyfolio';
+import PortfolioM from '../components/PortfolioM';
+import TechnoPortfolioM from '../components/TechnofolioM';
+
+
 
 
 
 const Index = () => (
-<div>
+<BreakpointProvider>
    <div>
      <div className='md:flex bg-gray-200'>
         <div className='md:mx-4 md:mt-32 text-center md:w-1/2'>
@@ -60,10 +64,18 @@ const Index = () => (
           </Breakpoint>
    </div>
    <div className='m-12'>
-   <Portfolio/>
+
+   <Breakpoint small down>
+   <PortfolioM/>
+   <TechnoPortfolioM/>
+   </Breakpoint>
+
+   <Breakpoint medium up>
    <TechnoPortfolio/>
+   <Portfolio/>
+   </Breakpoint>
    </div>
-   </div>
+   </BreakpointProvider>
 )
 
 export default Index;

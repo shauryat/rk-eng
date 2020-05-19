@@ -106,8 +106,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/index.css */ "./styles/index.css");
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-socks */ "react-socks");
-/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_socks__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "/Users/dev/Desktop/Portfolio/pages/_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -116,26 +114,18 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-
 function MyApp({
   Component,
   pageProps
 }) {
-  return __jsx(react_socks__WEBPACK_IMPORTED_MODULE_2__["BreakpointProvider"], {
+  return __jsx(Component, _extends({}, pageProps, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 3
+      lineNumber: 4,
+      columnNumber: 10
     }
-  }, __jsx(Component, _extends({}, pageProps, {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 3
-    }
-  })));
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MyApp);
@@ -173,17 +163,6 @@ module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_
 /***/ (function(module, exports) {
 
 module.exports = require("react");
-
-/***/ }),
-
-/***/ "react-socks":
-/*!******************************!*\
-  !*** external "react-socks" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-socks");
 
 /***/ })
 

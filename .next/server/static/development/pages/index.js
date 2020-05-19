@@ -322,8 +322,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_decorations_blob1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/decorations/blob1 */ "./components/images/decorations/blob1.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-responsive */ "react-responsive");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/Users/dev/Desktop/Portfolio/components/Portfolio.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -358,7 +361,7 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 37,
+        lineNumber: 38,
         columnNumber: 6
       }
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -366,7 +369,7 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 39,
         columnNumber: 7
       }
     }, __jsx("div", {
@@ -374,32 +377,21 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 40,
         columnNumber: 6
       }
     }, " Projects"), " "), " ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 21
       }
-    }), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_4__["Breakpoint"], {
-      medium: true,
-      down: true,
+    }), __jsx(_portfolio_styles__WEBPACK_IMPORTED_MODULE_3__["PreviewContainer"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 10
-      }
-    }, __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      style: styles.root,
-      slideStyle: styles.slideContainer,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 13
       }
     }, projects.map(({
@@ -415,54 +407,22 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 27
       }
-    })))), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_4__["Breakpoint"], {
-      large: true,
-      up: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 8
-      }
-    }, __jsx(_portfolio_styles__WEBPACK_IMPORTED_MODULE_3__["PreviewContainer"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 51,
-        columnNumber: 13
-      }
-    }, projects.map(({
-      id,
-      title,
-      description,
-      imageUrl
-    }) => __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: id,
-      title: title,
-      description: description,
-      imageUrl: imageUrl,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 27
-      }
-    })))), __jsx("div", {
+    }))), __jsx("div", {
       className: "-ml-32 md:-ml-48 md:w-1/4 w-1/2 md:-mt-24 -mt-12",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 50,
         columnNumber: 9
       }
     }, __jsx(_images_decorations_blob1__WEBPACK_IMPORTED_MODULE_6__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 51,
         columnNumber: 9
       }
     })));
@@ -471,6 +431,134 @@ class Portfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Portfolio);
+
+/***/ }),
+
+/***/ "./components/PortfolioM.jsx":
+/*!***********************************!*\
+  !*** ./components/PortfolioM.jsx ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Data_Data_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Data/Data.js */ "./components/Data/Data.js");
+/* harmony import */ var _Cards_Projects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Cards/Projects */ "./components/Cards/Projects.jsx");
+/* harmony import */ var _portfolio_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./portfolio.styles */ "./components/portfolio.styles.jsx");
+/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-socks */ "react-socks");
+/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_socks__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-swipeable-views */ "react-swipeable-views");
+/* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _images_decorations_blob1__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/decorations/blob1 */ "./components/images/decorations/blob1.js");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-responsive */ "react-responsive");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "/Users/dev/Desktop/Portfolio/components/PortfolioM.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+class PortfolioM extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: _Data_Data_js__WEBPACK_IMPORTED_MODULE_1__["default"]
+    };
+  }
+
+  render() {
+    const {
+      projects
+    } = this.state;
+    const styles = {
+      root: {
+        padding: '0 2rem',
+        marginLeft: '-0.9rem'
+      },
+      slideContainer: {
+        marginLeft: '-0.2rem'
+      }
+    };
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 6
+      }
+    }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      bottom: true,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 7
+      }
+    }, __jsx("div", {
+      className: "text-teal-400 text-bold text-center text-6xl font-mono",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 6
+      }
+    }, " Projects"), " "), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      style: styles.root,
+      slideStyle: styles.slideContainer,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 6
+      }
+    }, projects.map(({
+      id,
+      title,
+      description,
+      imageUrl
+    }) => __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      key: id,
+      title: title,
+      description: description,
+      imageUrl: imageUrl,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 27
+      }
+    }))), __jsx("div", {
+      className: "-ml-32 md:-ml-48 md:w-1/4 w-1/2 md:-mt-24 -mt-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 9
+      }
+    }, __jsx(_images_decorations_blob1__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 9
+      }
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (PortfolioM);
 
 /***/ }),
 
@@ -615,6 +703,178 @@ const SideDrawer = props => {
 
 /***/ }),
 
+/***/ "./components/TechnofolioM.jsx":
+/*!*************************************!*\
+  !*** ./components/TechnofolioM.jsx ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Data_TechData_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Data/TechData.js */ "./components/Data/TechData.js");
+/* harmony import */ var _Cards_Projects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Cards/Projects */ "./components/Cards/Projects.jsx");
+/* harmony import */ var _portfolio_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./portfolio.styles */ "./components/portfolio.styles.jsx");
+/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-socks */ "react-socks");
+/* harmony import */ var react_socks__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_socks__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-swipeable-views */ "react-swipeable-views");
+/* harmony import */ var react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _images_decorations_blob2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/decorations/blob2 */ "./components/images/decorations/blob2.js");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
+/* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-responsive */ "react-responsive");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_8__);
+var _jsxFileName = "/Users/dev/Desktop/Portfolio/components/TechnofolioM.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+class TechnoPortfolioM extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(props) {
+    super(props);
+    this.state = {
+      tech: _Data_TechData_js__WEBPACK_IMPORTED_MODULE_1__["default"]
+    };
+  }
+
+  render() {
+    const Desktop = ({
+      children
+    }) => {
+      const isDesktop = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 992
+      });
+      return isDesktop ? children : null;
+    };
+
+    const Tablet = ({
+      children
+    }) => {
+      const isTablet = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 768,
+        maxWidth: 991
+      });
+      return isTablet ? children : null;
+    };
+
+    const Mobile = ({
+      children
+    }) => {
+      const isMobile = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        maxWidth: 767
+      });
+      return isMobile ? children : null;
+    };
+
+    const Default = ({
+      children
+    }) => {
+      const isNotMobile = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 768
+      });
+      return isNotMobile ? children : null;
+    };
+
+    const {
+      tech
+    } = this.state;
+    const styles = {
+      root: {
+        padding: '0 2rem',
+        marginLeft: '-0.9rem'
+      },
+      slideContainer: {
+        marginLeft: '-0.2rem'
+      }
+    };
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 1
+      }
+    }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
+      bottom: true,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 6
+      }
+    }, __jsx("div", {
+      className: "text-indigo-400 text-bold text-center text-6xl font-mono",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 6
+      }
+    }, " Tech-Stack"), " "), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      style: styles.root,
+      slideStyle: styles.slideContainer,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 13
+      }
+    }, tech.map(({
+      id,
+      title,
+      description,
+      imageUrl
+    }) => __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 18
+      }
+    }, __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      key: id,
+      title: title,
+      description: description,
+      imageUrl: imageUrl,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 27
+      }
+    })))), __jsx("div", {
+      className: "-ml-32 md:-ml-48 md:w-1/5 w-1/2 md:-mt-24 -mt-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 69,
+        columnNumber: 9
+      }
+    }, __jsx(_images_decorations_blob2__WEBPACK_IMPORTED_MODULE_6__["default"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70,
+        columnNumber: 9
+      }
+    })));
+  }
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TechnoPortfolioM);
+
+/***/ }),
+
 /***/ "./components/Technolgyfolio.jsx":
 /*!***************************************!*\
   !*** ./components/Technolgyfolio.jsx ***!
@@ -636,8 +896,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _images_decorations_blob2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./images/decorations/blob2 */ "./components/images/decorations/blob2.js");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-reveal/Fade */ "react-reveal/Fade");
 /* harmony import */ var react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-responsive */ "react-responsive");
+/* harmony import */ var react_responsive__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_responsive__WEBPACK_IMPORTED_MODULE_8__);
 var _jsxFileName = "/Users/dev/Desktop/Portfolio/components/Technolgyfolio.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -656,6 +919,43 @@ class TechnoPortfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   render() {
+    const Desktop = ({
+      children
+    }) => {
+      const isDesktop = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 992
+      });
+      return isDesktop ? children : null;
+    };
+
+    const Tablet = ({
+      children
+    }) => {
+      const isTablet = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 768,
+        maxWidth: 991
+      });
+      return isTablet ? children : null;
+    };
+
+    const Mobile = ({
+      children
+    }) => {
+      const isMobile = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        maxWidth: 767
+      });
+      return isMobile ? children : null;
+    };
+
+    const Default = ({
+      children
+    }) => {
+      const isNotMobile = Object(react_responsive__WEBPACK_IMPORTED_MODULE_8__["useMediaQuery"])({
+        minWidth: 768
+      });
+      return isNotMobile ? children : null;
+    };
+
     const {
       tech
     } = this.state;
@@ -672,7 +972,7 @@ class TechnoPortfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 38,
+        lineNumber: 56,
         columnNumber: 1
       }
     }, __jsx(react_reveal_Fade__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -680,7 +980,7 @@ class TechnoPortfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 57,
         columnNumber: 6
       }
     }, __jsx("div", {
@@ -688,102 +988,52 @@ class TechnoPortfolio extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 58,
         columnNumber: 6
       }
     }, " Tech-Stack"), " "), " ", __jsx("br", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42,
+        lineNumber: 59,
         columnNumber: 21
       }
-    }), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_4__["Breakpoint"], {
-      medium: true,
-      down: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 44,
-        columnNumber: 10
-      }
-    }, __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      style: styles.root,
-      slideStyle: styles.slideContainer,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 45,
-        columnNumber: 13
-      }
-    }, tech.map(({
-      id,
-      title,
-      description,
-      imageUrl
-    }) => __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: id,
-      title: title,
-      description: description,
-      imageUrl: imageUrl,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 47,
-        columnNumber: 27
-      }
-    }))), __jsx("br", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 50,
-        columnNumber: 13
-      }
-    })), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_4__["Breakpoint"], {
-      large: true,
-      up: true,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 53,
-        columnNumber: 8
-      }
-    }, __jsx(_portfolio_styles__WEBPACK_IMPORTED_MODULE_3__["PreviewContainer"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 54,
-        columnNumber: 13
-      }
-    }, tech.map(({
-      id,
-      title,
-      description,
-      imageUrl
-    }) => __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      key: id,
-      title: title,
-      description: description,
-      imageUrl: imageUrl,
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 56,
-        columnNumber: 27
-      }
-    })))), __jsx("div", {
-      className: "-ml-32 md:-ml-48 md:w-1/5 w-1/2 md:-mt-24 -mt-12",
+    }), __jsx(_portfolio_styles__WEBPACK_IMPORTED_MODULE_3__["PreviewContainer"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 61,
+        columnNumber: 13
+      }
+    }, tech.map(({
+      id,
+      title,
+      description,
+      imageUrl
+    }) => __jsx(_Cards_Projects__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      key: id,
+      title: title,
+      description: description,
+      imageUrl: imageUrl,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 27
+      }
+    }))), __jsx("div", {
+      className: "-ml-32 md:-ml-48 md:w-1/5 w-1/2 md:-mt-24 -mt-12",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
         columnNumber: 9
       }
     }, __jsx(_images_decorations_blob2__WEBPACK_IMPORTED_MODULE_6__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 68,
         columnNumber: 9
       }
     })));
@@ -1237,6 +1487,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/header */ "./components/header.js");
 /* harmony import */ var _components_Portfolio__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Portfolio */ "./components/Portfolio.jsx");
 /* harmony import */ var _components_Technolgyfolio__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Technolgyfolio */ "./components/Technolgyfolio.jsx");
+/* harmony import */ var _components_PortfolioM__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/PortfolioM */ "./components/PortfolioM.jsx");
+/* harmony import */ var _components_TechnofolioM__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/TechnofolioM */ "./components/TechnofolioM.jsx");
 var _jsxFileName = "/Users/dev/Desktop/Portfolio/pages/index.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -1252,18 +1504,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Index = () => __jsx("div", {
+
+
+const Index = () => __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["BreakpointProvider"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16,
+    lineNumber: 20,
     columnNumber: 1
   }
 }, __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 17,
+    lineNumber: 21,
     columnNumber: 4
   }
 }, __jsx("div", {
@@ -1271,7 +1525,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18,
+    lineNumber: 22,
     columnNumber: 6
   }
 }, __jsx("div", {
@@ -1279,14 +1533,14 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19,
+    lineNumber: 23,
     columnNumber: 9
   }
 }, __jsx("br", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20,
+    lineNumber: 24,
     columnNumber: 11
   }
 }), __jsx("p", {
@@ -1294,7 +1548,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21,
+    lineNumber: 25,
     columnNumber: 13
   }
 }, "Hello World!"), __jsx("p", {
@@ -1302,7 +1556,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22,
+    lineNumber: 26,
     columnNumber: 13
   }
 }, "I am Shaurya Tuli a Front-End Dev"), __jsx("p", {
@@ -1310,7 +1564,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23,
+    lineNumber: 27,
     columnNumber: 13
   }
 }, "a 18 Year Old from New Delhi , India who has passion for web development and making super awesome web apps and much more I use React.js and other libraries along with it to make some beautiful simple and usable "), __jsx("div", {
@@ -1318,7 +1572,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 27,
+    lineNumber: 31,
     columnNumber: 14
   }
 }, __jsx("div", {
@@ -1326,7 +1580,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 28,
+    lineNumber: 32,
     columnNumber: 16
   }
 }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -1336,21 +1590,21 @@ const Index = () => __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 30
     }
   }),
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29,
+    lineNumber: 33,
     columnNumber: 18
   }
 }, " Github")), __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 34,
+    lineNumber: 38,
     columnNumber: 15
   }
 }, __jsx(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -1360,14 +1614,14 @@ const Index = () => __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 42,
       columnNumber: 28
     }
   }),
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35,
+    lineNumber: 39,
     columnNumber: 17
   }
 }, " LinkedIn ")))), __jsx("div", {
@@ -1375,14 +1629,14 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 43,
+    lineNumber: 47,
     columnNumber: 7
   }
 }, __jsx(_components_images_home_homeimage__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44,
+    lineNumber: 48,
     columnNumber: 9
   }
 })), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["Breakpoint"], {
@@ -1391,7 +1645,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 47,
+    lineNumber: 51,
     columnNumber: 7
   }
 }, __jsx(_components_WaverBorder__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1401,7 +1655,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 48,
+    lineNumber: 52,
     columnNumber: 7
   }
 }))), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["Breakpoint"], {
@@ -1410,7 +1664,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 55,
+    lineNumber: 59,
     columnNumber: 10
   }
 }, __jsx(_components_WaverBorder__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1420,7 +1674,7 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 56,
+    lineNumber: 60,
     columnNumber: 12
   }
 }))), __jsx("div", {
@@ -1428,24 +1682,56 @@ const Index = () => __jsx("div", {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 62,
+    lineNumber: 66,
     columnNumber: 4
   }
-}, __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_10__["default"], {
+}, __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["Breakpoint"], {
+  small: true,
+  down: true,
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 63,
+    lineNumber: 68,
     columnNumber: 4
   }
-}), __jsx(_components_Technolgyfolio__WEBPACK_IMPORTED_MODULE_11__["default"], {
+}, __jsx(_components_PortfolioM__WEBPACK_IMPORTED_MODULE_12__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 64,
+    lineNumber: 69,
     columnNumber: 4
   }
-})));
+}), __jsx(_components_TechnofolioM__WEBPACK_IMPORTED_MODULE_13__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 70,
+    columnNumber: 4
+  }
+})), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["Breakpoint"], {
+  medium: true,
+  up: true,
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 73,
+    columnNumber: 4
+  }
+}, __jsx(_components_Technolgyfolio__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 74,
+    columnNumber: 4
+  }
+}), __jsx(_components_Portfolio__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 75,
+    columnNumber: 4
+  }
+}))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -1735,6 +2021,17 @@ module.exports = require("prop-types");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-responsive":
+/*!***********************************!*\
+  !*** external "react-responsive" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-responsive");
 
 /***/ }),
 
