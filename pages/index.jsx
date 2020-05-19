@@ -13,7 +13,7 @@ import TechnoPortfolio from '../components/Technolgyfolio';
 
 
 const Index = () => (
-  <BreakpointProvider>
+<div>
    <div>
      <div className='md:flex bg-gray-200'>
         <div className='md:mx-4 md:mt-32 text-center md:w-1/2'>
@@ -63,7 +63,7 @@ const Index = () => (
    <Portfolio/>
    <TechnoPortfolio/>
    </div>
-</BreakpointProvider>
+   </div>
 )
 
 export default Index;

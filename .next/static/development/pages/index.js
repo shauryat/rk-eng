@@ -653,7 +653,7 @@ var TechnoPortfolio = /*#__PURE__*/function (_Component) {
           columnNumber: 21
         }
       }), __jsx(react_socks__WEBPACK_IMPORTED_MODULE_9__["Breakpoint"], {
-        small: true,
+        medium: true,
         down: true,
         __self: this,
         __source: {
@@ -56041,12 +56041,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Index = function Index() {
-  return __jsx(react_socks__WEBPACK_IMPORTED_MODULE_3__["BreakpointProvider"], {
+  return __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 3
+      columnNumber: 1
     }
   }, __jsx("div", {
     __self: _this,

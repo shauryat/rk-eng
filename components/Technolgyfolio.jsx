@@ -37,11 +37,11 @@ constructor(props){
   
 <div>
      <Fade bottom>
-
+       
      <div className='text-indigo-400 text-bold text-center text-6xl font-mono'> Tech-Stack 
      </div> </Fade> <br/>   
      
-         <Breakpoint small down>
+         <Breakpoint medium down>
             <SwipeableViews style={styles.root} slideStyle={styles.slideContainer}>
              {tech.map(({id, title, description, imageUrl})=> (
                           <ProjectCards key={id} title={title} description={description} imageUrl={imageUrl}/>
