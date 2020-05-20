@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import PORTFOLIO_DATA from './Data/Data.js';
 import ProjectCards from './Cards/Projects';
-import { PreviewContainer } from './portfolio.styles';
-import  { Breakpoint , BreakpointProvider } from 'react-socks';
 import SwipeableViews from 'react-swipeable-views';
 import Blob from './images/decorations/blob1';
 import Fade from 'react-reveal/Fade';
-import MediaQuery from 'react-responsive';
 import ProImage from './images/folios/projectimage';
 
 

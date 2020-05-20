@@ -1,16 +1,15 @@
 const PORTFOLIO_DATA = [
+    {
+        id :2,
+        title:'Ecommerce 2',
+        description:'Gatsby+Snipcart',
+        imageUrl:'https://i.imgur.com/580Ve3M.png'
+    },
  {
-     id :1,
-     title:'Ecommerce',
-     description:'Redux+Stripe',
-     imageUrl:'https://i.imgur.com/ccDYHDn.png'
- },
-
- {
-    id :2,
-    title:'Ecommerce 2',
-    description:'Gatsby+Snipcart',
-    imageUrl:'https://i.imgur.com/580Ve3M.png'
+    id :1,
+    title:'Ecommerce',
+    description:'Redux+Stripe',
+    imageUrl:'https://i.imgur.com/ccDYHDn.png'
 },
 
 {

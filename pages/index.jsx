@@ -8,8 +8,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Portfolio from '../components/projectfolio/Portfolio';
 import TechnoPortfolio from '../components/Techfolio/Technolgyfolio';
 
-import PortfolioM from '../components/PortfolioM';
-import TechnoPortfolioM from '../components/TechnofolioM';
 
 
 
@@ -63,17 +61,9 @@ const Index = () => (
           </Breakpoint>
        </div>
           <div className='m-12'>
-            {/* mobile only */}
-             <Breakpoint small down>
-                <PortfolioM/>
-                <TechnoPortfolioM/>
-            </Breakpoint>
-
-             {/* desktop only */}
-          <Breakpoint medium up>
+          
              <Portfolio/>
              <TechnoPortfolio/>
-           </Breakpoint>
          </div>
 
    </BreakpointProvider>

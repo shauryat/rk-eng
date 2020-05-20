@@ -34,15 +34,12 @@ constructor(props){
 
      
 <div>
-<div className='-my-8 mx-auto w-2/3'> <StackImage/>  </div>
-     <Fade bottom> <div className='text-indigo-400 text-bold text-center text-6xl font-mono'> Tech-Stack </div> </Fade>
             <SwipeableViews style={styles.root} slideStyle={styles.slideContainer}>
              {tech.map(({id, title, description, imageUrl})=> (
                       <ProjectCards key={id} title={title} description={description} imageUrl={imageUrl}/>
                   ))}
               </SwipeableViews> 
-         <div className='-ml-32 md:-ml-48 md:w-1/5 w-1/2 md:-mt-24 -mt-12'><Blob2/></div>      
-</div>
+        </div>
 
 
         )
