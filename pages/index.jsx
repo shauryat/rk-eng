@@ -41,7 +41,7 @@ const Index = () => (
           </div>
         </div>   
         {/* photo opimization */}
-      <div className=' mx-4 my-8 md:w-1/2 md:mt-16'>
+      <div className='mx-auto w-2/3 md:mx-12 my-8 md:w-2/5 md:mt-16'>
         <HomeImage/>
       </div>  
      {/* render only mobile */}
@@ -61,7 +61,6 @@ const Index = () => (
           </Breakpoint>
        </div>
           <div className='m-12'>
-          
              <Portfolio/>
              <TechnoPortfolio/>
          </div>

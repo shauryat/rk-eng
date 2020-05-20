@@ -35,7 +35,7 @@ constructor(props){
           
         return (
      <div>
-     <Fade bottom> <div className='text-teal-400 text-bold text-center text-6xl font-mono'> Projects </div> </Fade> 
+     <Fade bottom> <div className='text-teal-400 text-bold text-center text-3xl md:text-6xl font-mono'> Projects </div> </Fade> 
       <div className='my-4 mx-auto w-2/3 md:w-1/3'> <ProImage/> </div>
 
       <MobileOnly>

@@ -33,13 +33,11 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])({
   root: {
-    maxWidth: 361,
-    minHeight: 280,
-    maxHeight: 280
+    maxWidth: 360,
+    height: 280
   },
   media: {
-    minHeight: 180,
-    maxHeight: 180
+    height: 180
   }
 });
 function ProjectCards(_ref) {
@@ -48,44 +46,44 @@ function ProjectCards(_ref) {
       imageUrl = _ref.imageUrl;
   var classes = useStyles();
   return __jsx("div", {
-    className: "-mr-2",
+    className: "mr-4 mb-4",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 24,
       columnNumber: 1
     }
   }, __jsx(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "-mr-12 w-64 h-56",
+    className: classes.root,
     variant: "outlined",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 25,
       columnNumber: 5
     }
   }, __jsx(_material_ui_core_CardActionArea__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 26,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_6__["default"], {
     component: "img",
-    className: "w-32 h-32",
+    className: classes.media,
     image: imageUrl,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 27,
       columnNumber: 7
     }
   }), __jsx(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 32,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -95,7 +93,7 @@ function ProjectCards(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 33,
       columnNumber: 11
     }
   }, title), __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -105,7 +103,7 @@ function ProjectCards(_ref) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 36,
       columnNumber: 11
     }
   }, description)))));
@@ -280,7 +278,7 @@ var TechnoPortfolio = /*#__PURE__*/function (_Component) {
           columnNumber: 5
         }
       }, " ", __jsx("div", {
-        className: "text-indigo-400 text-bold text-center text-6xl font-mono",
+        className: "text-indigo-400 text-bold text-center text-3xl md:text-6xl font-mono",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -798,7 +796,7 @@ var Portfolio = /*#__PURE__*/function (_Component) {
           columnNumber: 6
         }
       }, " ", __jsx("div", {
-        className: "text-teal-400 text-bold text-center text-6xl font-mono",
+        className: "text-teal-400 text-bold text-center text-3xl md:text-6xl font-mono",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -55711,7 +55709,7 @@ var Index = function Index() {
       columnNumber: 17
     }
   }, " LinkedIn ")))), __jsx("div", {
-    className: " mx-4 my-8 md:w-1/2 md:mt-16",
+    className: "mx-auto w-2/3 md:mx-12 my-8 md:w-2/5 md:mt-16",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -55775,14 +55773,14 @@ var Index = function Index() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 64,
       columnNumber: 14
     }
   }), __jsx(_components_Techfolio_Technolgyfolio__WEBPACK_IMPORTED_MODULE_8__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 65,
       columnNumber: 14
     }
   })));

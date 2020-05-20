@@ -39,7 +39,7 @@ constructor(props){
 
      
 <div>
-    <Fade bottom> <div className='text-indigo-400 text-bold text-center text-6xl font-mono'> Tech-Stack </div> </Fade>
+    <Fade bottom> <div className='text-indigo-400 text-bold text-center text-3xl md:text-6xl font-mono'> Tech-Stack </div> </Fade>
        <div className='-my-8 mx-auto w-2/3 md:w-1/3'> <StackImage/>  </div>
 
       <MobileOnly>

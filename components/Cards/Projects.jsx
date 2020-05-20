@@ -9,14 +9,11 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 361,
-    minHeight: 280,
-    maxHeight:280,
-    
+    maxWidth: 360,
+    height:280,
   },
   media: {
-    minHeight: 180,
-    maxHeight:180,
+    height: 180,
   },
 });
 
@@ -24,12 +21,12 @@ export default function ProjectCards({ title, description, imageUrl }) {
   const classes = useStyles();
 
   return (
-<div className='-mr-2'>  
-    <Card className='-mr-12 w-64 h-56' variant='outlined'>
+<div className='mr-4 mb-4'>  
+    <Card className={classes.root} variant='outlined'>
       <CardActionArea>
       <CardMedia
        component="img"
-       className='w-32 h-32'
+       className={classes.media}
       image={imageUrl}
         />
         <CardContent>
