@@ -1,6 +1,6 @@
 function HomeImage() {
     
-    return <img src="/home2.png" alt="home image" />
+    return <img src="/home.jpeg" alt="home image" />
   }
   
   export default HomeImage

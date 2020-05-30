@@ -9,8 +9,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 360,
-    height:280,
+    maxWidth: 365,
+    height:240,
   },
   media: {
     height: 180,
@@ -21,23 +21,18 @@ export default function ProjectCards({ title, description, imageUrl }) {
   const classes = useStyles();
 
   return (
-<div className='mr-4 mb-4'>  
-    <Card className={classes.root} variant='outlined'>
-      <CardActionArea>
+<div className='mr-4 mb-4 shadow-lg rounded-lg'>  
+    <Card className={classes.root} elevation={0}>
       <CardMedia
        component="img"
        className={classes.media}
       image={imageUrl}
         />
         <CardContent>
-          <Typography gutterBottom variant='h6' component='h2'>
+          <Typography component='h5' variant='h6' align='center' color='textSecondary'>
             {title}
           </Typography>
-          <Typography variant='body2' color='textSecondary' component='p'>
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+          </CardContent>
      </Card>
 </div>
   );

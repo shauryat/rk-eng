@@ -1,71 +1,45 @@
 import HomeImage from '../components/images/home/homeimage';
-import WaveBorder from '../components/WaverBorder';
-import { Breakpoint, BreakpointProvider  } from 'react-socks';
-import Button from '@material-ui/core/Button';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import Customers from '../components/Customers/Customers';
+import ProductDetail from '../components/Product/Product';
+import PartnerList from '../components/Partner/partnerlist';
+import GoogleForm from '../components/googleforms';
+import AddressList from '../components/Address/AddressLayout';
+import Footer from '../components/footer/Footer';
 
-import Portfolio from '../components/projectfolio/Portfolio';
-import TechnoPortfolio from '../components/Techfolio/Technolgyfolio';
-
-
-
-
-
+import { FontChelsea } from '../components/portfolio.styles';
 
 const Index = () => (
-<BreakpointProvider>
-   <div>
-     <div className='md:flex bg-gray-200'>
-        <div className='md:mx-4 md:mt-32 text-center md:w-1/2'>
+
+  <div>    
+     <div className='md:flex bg-gray-100'>
+        <div className='md:mx-4 md:mt-24 text-center md:w-1/2'>
           <br/>
-            <p className='text-indigo-400 text-6xl md:text-6xl font-medium'>Hello World!</p>
-            <p className='text-teal-300 text-2xl md:text-5xl font-medium'>I am Shaurya Tuli a Front-End Dev</p>
-            <p className='mb-4 mx-2 text-gray-600 text-lg md:text-base font-thin'>
-             a 18 Year Old from New Delhi , India who has passion for web development and making super awesome web apps and much more 
-             I use React.js and other libraries along with it to make some beautiful simple and usable </p>
-                {/* button position */}
-             <div className='flex md:ml-32'>
-               <div className='ml-20 mr-2'>
-                 <Button 
-                  variant="outlined"
-                  color="inherit"
-                  startIcon={<GitHubIcon />}> Github</Button>
-               </div>
-              <div>
-                <Button
-                variant="outlined"
-                color="primary"
-                startIcon={<LinkedInIcon />}> LinkedIn </Button>
-             </div>
-          </div>
-        </div>   
+            <p className='text-indigo-300 text-4xl md:text-6xl font-medium'>Welcome To </p>
+       <FontChelsea> <p className='text-indigo-500 text-5xl font-medium mb-4 '>RK Engineering Corporation</p> </FontChelsea>
+            <p className='mb-4 mx-4 text-gray-600 text-lg md:text-base font-thin'>
+            RK engineering Corporation is a leading bright bar manufacturing company catering to the needs of innumerable automotive ancillary units in Northern India for nearly five decades , the company’s name is synonymous with quality and prompt delivery of goods  
+           </p>   
+             </div>    
         {/* photo opimization */}
-      <div className='mx-auto w-2/3 md:mx-12 my-8 md:w-2/5 md:mt-16'>
-        <HomeImage/>
-      </div>  
-     {/* render only mobile */}
-      <Breakpoint small down>
-      <WaveBorder
-            upperColor="#EDF2F7"
-            lowerColor="#fff"
-            animationNegativeDelay={4}/>
-    </Breakpoint>
-       </div> 
-       {/* render only tablet, desktops & laptops */}
-         <Breakpoint medium up>
-           <WaveBorder
-            upperColor="#EDF2F7"
-            lowerColor="#fff"
-            animationNegativeDelay={4}/>
-          </Breakpoint>
-       </div>
-          <div className='m-12'>
-             <Portfolio/>
-             <TechnoPortfolio/>
+         <div className='-mb-4 md:mb-16 mx-auto md:mx-12 mt-8 md:w-2/5 md:mt-16'>
+           <HomeImage/>
+         </div>  
          </div>
 
-   </BreakpointProvider>
+       <div>
+          <Customers/>
+          <ProductDetail/>
+          <div className='mx-4 md:mx-12 rounded-md bg-white shadow-md'>
+            <GoogleForm/>
+            <PartnerList/>
+               <br/>
+         </div>
+           <br/>
+           <AddressList/>
+           <Footer/>
+        </div>
+      </div>
+ 
 )
 
 export default Index;

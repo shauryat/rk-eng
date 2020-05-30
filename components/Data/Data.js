@@ -1,31 +1,36 @@
 const PORTFOLIO_DATA = [
     {
         id :2,
-        title:'Ecommerce 2',
+        title:'Hero Motocorp Ltd.',
         description:'Gatsby+Snipcart',
-        imageUrl:'https://i.imgur.com/580Ve3M.png'
+        imageUrl:'https://download.logo.wine/logo/Hero_MotoCorp/Hero_MotoCorp-Logo.wine.png' 
     },
  {
     id :1,
-    title:'Ecommerce',
+    title:'Maruti',
     description:'Redux+Stripe',
-    imageUrl:'https://i.imgur.com/ccDYHDn.png'
+    imageUrl:'https://logosvector.net/wp-content/uploads/2013/03/maruti-suzuki-eps-vector-logo.png'
 },
 
 {
     id :3,
-    title:'Covid-19 Live Tracker',
+    title:'Honda Scooters',
     description:'Using Covid-19 India API',
-    imageUrl:'https://i.imgur.com/r5WwPSa.png'
+    imageUrl:'https://cdn.freebiesupply.com/logos/large/2x/honda-11-logo-png-transparent.png'
 },
 
 {
     id :4,
-    title:'Personal Blog',
+    title:'Bajaj Auto',
     description:'Next.js & Datacom CMS',
-    imageUrl:'https://i.imgur.com/np13rw7.png'
+    imageUrl:'https://www.venturecenter.co.in/csr/bajajauto/wp-content/uploads/2019/06/Bajaj-logo.jpg'
 },
-
+{
+    id :5,
+    title:'Honda Siel Ltd.',
+    description:'Next.js & Datacom CMS',
+    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+}
 ];
 
 export default PORTFOLIO_DATA
