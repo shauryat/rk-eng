@@ -11,7 +11,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    height:300,
+    height:315,
   },
   media: {
     height: 170,
@@ -22,20 +22,22 @@ export default function MachineCard({name,description,imageUrl}) {
   const classes = useStyles();
 
   return (
-    <div className='mr-4 mb-4 bg-white h-auto shadow-lg rounded-lg'>
+    <div className='mr-4 md:mb-4 bg-white shadow-lg rounded-lg'>
+      <Card className={classes.root} elevation={0}>
         <CardMedia
            component="img"
            className={classes.media}
           image={imageUrl}        
           />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography gutterBottom variant="subtitle1" component="h5" color="primary">
             {name}         
              </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textPrimary" component="p">
             {description}
           </Typography>
         </CardContent>
+        </Card>
     </div>
   );
 }

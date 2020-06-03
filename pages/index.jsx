@@ -1,18 +1,20 @@
 import HomeImage from '../components/images/home/homeimage';
 import Customers from '../components/Customers/Customers';
 import ProductDetail from '../components/Product/Product';
-import PartnerList from '../components/Partner/partnerlist';
 import GoogleForm from '../components/googleforms';
 import AddressList from '../components/Address/AddressLayout';
 import Footer from '../components/footer/Footer';
+import Header from '../components/Future/Header';
+import LeaderList from '../components/Leaders/LeaderLayout';
 
 import { FontChelsea } from '../components/portfolio.styles';
 
 const Index = () => (
 
   <div>    
+     <Header/>
      <div className='md:flex bg-gray-100'>
-        <div className='md:mx-4 md:mt-24 text-center md:w-1/2'>
+        <div className='md:mx-4 md:mt-16 lg:mt-24 text-center md:w-1/2'>
           <br/>
             <p className='text-indigo-300 text-4xl md:text-6xl font-medium'>Welcome To </p>
        <FontChelsea> <p className='text-indigo-500 text-5xl font-medium mb-4 '>RK Engineering Corporation</p> </FontChelsea>
@@ -21,20 +23,19 @@ const Index = () => (
            </p>   
              </div>    
         {/* photo opimization */}
-         <div className='-mb-4 md:mb-16 mx-auto md:mx-12 mt-8 md:w-2/5 md:mt-16'>
+         <div className='-mb-4 md:mb-24 mx-auto md:mx-12 mt-8 md:w-2/5 md:mt-16'>
            <HomeImage/>
          </div>  
          </div>
 
        <div>
-          <Customers/>
           <ProductDetail/>
           <div className='mx-4 md:mx-12 rounded-md bg-white shadow-md'>
             <GoogleForm/>
-            <PartnerList/>
                <br/>
          </div>
            <br/>
+           <Customers/>
            <AddressList/>
            <Footer/>
         </div>

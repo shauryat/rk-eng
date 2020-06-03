@@ -9,19 +9,19 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 365,
-    height:240,
+    maxWidth: 340,
+    height:260,
   },
   media: {
     height: 180,
   },
 });
 
-export default function ProjectCardsM({ title, description, imageUrl }) {
+export default function ProjectCardsM({ title, imageUrl }) {
   const classes = useStyles();
 
   return (
-<div className='mr-4 mb-4'>  
+<div className='mr-8 mb-4'>  
     <Card className={classes.root} elevation={0} variant='outlined'>
       <CardMedia
        component="img"

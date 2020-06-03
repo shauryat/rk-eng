@@ -30,6 +30,24 @@ const PORTFOLIO_DATA = [
     title:'Honda Siel Ltd.',
     description:'Next.js & Datacom CMS',
     imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+},
+{
+    id :6,
+    title:'Tata Motors',
+    description:'Next.js & Datacom CMS',
+    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+},
+{
+    id :7,
+    title:'Escorts Ltd.',
+    description:'Next.js & Datacom CMS',
+    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+},
+{
+    id :8,
+    title:'TVS motorcycles',
+    description:'Next.js & Datacom CMS',
+    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
 }
 ];
 

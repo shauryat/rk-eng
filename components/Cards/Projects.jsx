@@ -10,14 +10,14 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: 365,
-    height:240,
+    height:'auto',
   },
   media: {
     height: 180,
   },
 });
 
-export default function ProjectCards({ title, description, imageUrl }) {
+export default function ProjectCards({ title,imageUrl }) {
   const classes = useStyles();
 
   return (

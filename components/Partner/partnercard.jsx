@@ -1,6 +1,6 @@
 const PartnerCard = ({name,number,imageUrl}) => (
 
-    <div className="md:flex bg-gray-100 rounded-lg p-6 shadow-md md:ml-4 my-4 md:mx-2 mx-6">
+    <div className="md:flex bg-gray-100 rounded-lg p-6 shadow-md md:mr-4">
      <img className="h-16 w-16 md:h-24 md:w-24 rounded-full mx-auto md:mx-0 md:mr-6" src={imageUrl}/>
         <div className="text-center md:text-left">
          <h2 className="text-lg">{name}</h2>
