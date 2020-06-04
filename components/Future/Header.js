@@ -21,7 +21,6 @@ class Header extends Component {
        state = { 
            drawerOpen: false,
            headerShow: false,
-           dropdown: false
              }
 
         componentDidMount() {
@@ -78,10 +77,11 @@ if(window.scrollY > 0){
               </div>  
            </Desktop>  
 
-            <MobileOnly>
-               <IconButton color='primary' aria-label='Menu' onClick={()=> this.toggleDrawer(true)}> 
-            <MenuIcon/>
-             </IconButton>
+         
+            <MobileOnly> 
+                <IconButton color='primary' aria-label='Menu' onClick={()=> this.toggleDrawer(true)}> 
+                   <MenuIcon/>
+                </IconButton>
              </MobileOnly>
 
              

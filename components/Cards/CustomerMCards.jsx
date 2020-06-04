@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 330,
+    maxWidth: 240,
     height:260,
   },
   media: {
@@ -21,7 +21,7 @@ export default function ProjectCardsM({ title, imageUrl }) {
   const classes = useStyles();
 
   return (
-<div className='mr-8 mb-4'>  
+<div className='mr-4 mb-4 inline-block'>  
     <Card className={classes.root} elevation={0} variant='outlined'>
       <CardMedia
        component="img"

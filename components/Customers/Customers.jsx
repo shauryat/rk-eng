@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PORTFOLIO_DATA from '../Data/Data.js';
 import ProjectCards from '../Cards/Projects';
 import ProjectCardsM from '../Cards/CustomerMCards';
-import { PreviewContainer, MobileOnly , FontChelsea } from '../portfolio.styles';
+import { PreviewContainer, MobileOnly , FontChelsea, HorizontalList } from '../portfolio.styles';
 import BusinessIcon from '@material-ui/icons/Business';
 import SwipeableViews from 'react-swipeable-views';
 import CircleIcon from '../iconcircele.jsx';
@@ -34,21 +34,21 @@ constructor(props){
           };
           
         return (
-     <div className='m-4 md:mx-32 md:mt-4'>
+     <div className='m-4 md:mx-24 md:mt-4'>
        {/* <div className='text-center mb-4 md:mb-4 text-indigo-500 text-bold text-4xl md:text-6xl font-medium'> 
               
                   OUR ANCILLARIES  
         </div> */}
-        <div className='-m-4 md:-mx-32'>
-        <Iarallax2 imageUrl="https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+        <div className='-m-4 md:-mx-24'>
+        <Iarallax2 imageUrl="https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
         </div>
 
       <MobileOnly>
-      <SwipeableViews style={styles.root} slideStyle={styles.slideContainer}>
+        <HorizontalList>
              {projects.map(({id, title, imageUrl})=> (
                       <ProjectCardsM key={id} title={title}  imageUrl={imageUrl}/>
                   ))}
-              </SwipeableViews>
+            </HorizontalList>  
       </MobileOnly>
 
             <PreviewContainer>

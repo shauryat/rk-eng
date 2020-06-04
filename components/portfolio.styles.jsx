@@ -38,3 +38,13 @@ export const FontRoboto = styled.div`
 font-family: 'Roboto', sans-serif;
 
 `;
+
+export const HorizontalList = styled.div`
+
+overflow: auto;
+white-space: nowrap;
+
+`;
+
+
+
