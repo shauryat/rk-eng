@@ -23,7 +23,7 @@ class AddressList extends Component {
         return (
             <div>
             <div className='mx-4 mb-2 md:mb-4 text-indigo-400 md:ml-4 text-4xl font-medium'> 
-                 <CircleIcon><ApartmentIcon/></CircleIcon> Our Offices  </div>
+                 <CircleIcon><ApartmentIcon/></CircleIcon> Our Locations  </div>
     <div className='md:flex md:pl-4 mr-4 md:mx-0'>
                {addresses.map(({name,address,imageUrl,id}) => (
                    <div className='ml-4 md:ml-0 md:mr-4 mb-4'>

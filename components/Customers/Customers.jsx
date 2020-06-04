@@ -6,6 +6,7 @@ import { PreviewContainer, MobileOnly , FontChelsea } from '../portfolio.styles'
 import BusinessIcon from '@material-ui/icons/Business';
 import SwipeableViews from 'react-swipeable-views';
 import CircleIcon from '../iconcircele.jsx';
+import Iarallax2 from '../parallax2.jsx';
 
 
 class Customers extends Component {
@@ -23,20 +24,23 @@ constructor(props){
         const styles = {
             root: {
               padding: '0 2rem',
-              marginLeft : '-0.9rem'
+              marginLeft : '-0.11rem'
             },
             slideContainer: {
-              marginLeft:'-0.4rem',
+              marginLeft:'-0.2rem',
               
             }, 
           
           };
           
         return (
-     <div className='m-4 md:m-12 md:ml-4'>
-       <div className='mb-4 md:mb-4 text-indigo-500 text-bold text-4xl md:text-6xl font-medium'> 
-               <CircleIcon>  <BusinessIcon/> </CircleIcon>
-                  Our Customers  
+     <div className='m-4 md:mx-32 md:mt-4'>
+       {/* <div className='text-center mb-4 md:mb-4 text-indigo-500 text-bold text-4xl md:text-6xl font-medium'> 
+              
+                  OUR ANCILLARIES  
+        </div> */}
+        <div className='-m-4 md:-mx-32'>
+        <Iarallax2 imageUrl="https://images.pexels.com/photos/236722/pexels-photo-236722.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
         </div>
 
       <MobileOnly>
