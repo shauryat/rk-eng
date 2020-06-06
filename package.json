@@ -9,6 +9,8 @@
   "dependencies": {
     "@material-ui/core": "^4.9.14",
     "@material-ui/icons": "^4.9.1",
+    "@mui-treasury/components": "^1.4.0",
+    "@mui-treasury/styles": "^1.7.0",
     "classnames": "2.2.6",
     "date-fns": "2.10.0",
     "isomorphic-unfetch": "3.0.0",

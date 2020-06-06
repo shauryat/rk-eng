@@ -11,6 +11,7 @@ import ProductList from '../components/Product/ProductList';
 import { FontChelsea } from '../components/portfolio.styles';
 import Iarallax from '../components/parallax';
 import Counter from '../components/Counter/counter';
+import ParallaxCarousel from '../components/SlideShow/Demo';
 
 const Index = () => (
 
@@ -32,7 +33,10 @@ const Index = () => (
          </div> */}
 
          <Iarallax imageUrl="https://www.brotherearth.com/en/tech/images/pic-sub-ecofactory.jpg"/>
-       <div>
+         {/* <div className='mt-4 md:mx-32'>
+         <ParallaxCarousel/>
+         </div> */}
+       <div>         
           <ProductDetail/>
            <Customers/>
            <div className='mb-4 mx-4 md:mx-12 rounded-md bg-white shadow-md'>

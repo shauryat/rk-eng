@@ -6,8 +6,8 @@ import Fade from 'react-reveal/Fade';
 const Iarallax = ({imageUrl}) => (
     <div>
         {/* -----basic config-----*/}
-        <Parallax blur={3} bgImage={imageUrl} strength={500}>
-      <div style={{ height: '370' }} className='border-2  border-white' >
+        <Parallax blur={5} bgImage={imageUrl} strength={500}>
+      <div style={{ height: 380 }} className='border-2  border-white' >
            <div className="text-center">
            <p className='md:-mb-4 mt-8 md:mt-16 text-white text-4xl md:text-7xl'>Welcome To </p>
     <Fade bottom delay={1100}>  <p className='text-white text-6xl md:text-7xl font-bold mb-4 '>RK Engineering Corporation</p>     </Fade>       
