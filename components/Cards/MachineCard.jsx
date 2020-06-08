@@ -1,12 +1,11 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import LazyLoad from 'react-lazy-load';
+
 
 const useStyles = makeStyles({
   root: {
@@ -24,11 +23,13 @@ export default function MachineCard({name,description,imageUrl}) {
   return (
     <div className='mr-4 md:mb-4 bg-white shadow-lg rounded-lg'>
       <Card className={classes.root} elevation={0}>
+        <LazyLoad>
         <CardMedia
            component="img"
            className={classes.media}
           image={imageUrl}        
           />
+          </LazyLoad>
         <CardContent>
           <Typography gutterBottom variant="subtitle1" component="h5" color="primary">
             {name}         

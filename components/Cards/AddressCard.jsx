@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import DirectionsOutlinedIcon from '@material-ui/icons/DirectionsOutlined';
+import LazyLoad from 'react-lazy-load';
 
 const useStyles = makeStyles({
   root: {
@@ -24,11 +25,13 @@ export default function AddressCard({name,address,imageUrl}) {
   return (
     <Card className={classes.root} variant='outlined'>
       <CardActionArea>
+      <LazyLoad>
         <CardMedia
          component="img"
          className={classes.media}
         image={imageUrl}
         />
+        </LazyLoad>
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
             {name}

@@ -1,17 +1,12 @@
-import HomeImage from '../components/images/home/homeimage';
 import Customers from '../components/Customers/Customers';
 import ProductDetail from '../components/Product/Product';
 import GoogleForm from '../components/googleforms';
 import AddressList from '../components/Address/AddressLayout';
 import Footer from '../components/footer/Footer';
 import Header from '../components/Future/Header';
-import LeaderList from '../components/Leaders/LeaderLayout';
-import ProductList from '../components/Product/ProductList';
-
-import { FontChelsea } from '../components/portfolio.styles';
 import Iarallax from '../components/parallax';
-import Counter from '../components/Counter/counter';
-import ParallaxCarousel from '../components/SlideShow/Demo';
+import LazyLoad from 'react-lazy-load';
+
 
 const Index = () => (
 
@@ -32,7 +27,9 @@ const Index = () => (
          </div>  
          </div> */}
 
+        <LazyLoad>
          <Iarallax imageUrl="https://www.brotherearth.com/en/tech/images/pic-sub-ecofactory.jpg"/>
+         </LazyLoad>
          {/* <div className='mt-4 md:mx-32'>
          <ParallaxCarousel/>
          </div> */}

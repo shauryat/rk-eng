@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import AddressCard from '../Cards/AddressCard';
 import ADDRESS_DATA from '../Data/AddressData';
-import Typography from '@material-ui/core/Typography'
 import ApartmentIcon from '@material-ui/icons/Apartment';
 import CircleIcon from '../iconcircele';
-import { FontChelsea } from '../portfolio.styles';
 import LandlineExtendedIcon from '../FabIcons/Landline';
 import MailExtendedIcon from '../FabIcons/Mail';
 import PhoneExtendedIcon from '../FabIcons/Phone';

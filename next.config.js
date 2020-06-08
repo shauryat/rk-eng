@@ -5,7 +5,7 @@ module.exports = withPlugins([
   [optimizedImages, {
     /* config for next-optimized-images */
     mozjpeg: {
-        quality: 80,
+        quality: 70,
       },
       optipng: {
         optimizationLevel: 3,
