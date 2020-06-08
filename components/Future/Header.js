@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
-import { useState } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import SideDrawer from './SideDrawer';
-import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
 import { Desktop, MobileOnly, FontRoboto } from '../portfolio.styles';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import CircleIcon from '../iconcircele';
+
+import { Menu } from '@zeit-ui/react-icons'
+
 
 import DropDown from './DropDown';
 
@@ -63,15 +60,15 @@ if(window.scrollY > 0){
              }}>
         <Toolbar>
             <div style={{flexGrow:1}}>
-               <div className='text-indigo-400 text-xl' > RK Engineering </div>
+               <div className='text-bluey text-xl' > RK Engineering </div>
                <div className='text-indigo-300' > Corporation </div>
             </div>
             
            <Desktop>
               <div className='text-gray-600 text-lg'>
                   <FontRoboto>
-                  <div className='inline mx-4 hover:text-indigo-600'>Home</div>
-                  <div className='inline mx-4 hover:text-indigo-600'>Leadership</div>  
+                  <div className='inline mx-4 hover:text-bluey'>Home</div>
+                  <div className='inline mx-4 hover:text-bluey'>Leadership</div>  
                   <DropDown/>
                   </FontRoboto>
               </div>  
@@ -79,9 +76,7 @@ if(window.scrollY > 0){
 
          
             <MobileOnly> 
-                <IconButton color='primary' aria-label='Menu' onClick={()=> this.toggleDrawer(true)}> 
-                   <MenuIcon/>
-                </IconButton>
+                   <Menu color="#0070f3" onClick={()=> this.toggleDrawer(true)}/>
              </MobileOnly>
 
              

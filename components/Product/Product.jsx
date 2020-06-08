@@ -7,6 +7,7 @@ import SimpleTable from './Table';
 import ProductList from './ProductList';
 import FacilitiesExtendedIcon from './Facilitiesbutton';
 import DropDown from '../Future/DropDown';
+import MinimalButton from './MinimalButton';
 
 const image1 = 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fannatobin%2Ffiles%2F2019%2F02%2F5G-factory-UK-1200x675.jpg';
 const image2 = 'https://i.imgur.com/imxGeLF.png';
@@ -17,7 +18,7 @@ const ProductDetail = () => (
         <br/>
         <Grid container spacing={1}>
             <Grid item md={9}>
-        <div className='ml-8 md:ml-4 text-4xl md:text-6xl text-indigo-500 text-bold font-medium'> 
+        <div className='ml-8 md:ml-4 text-4xl md:text-6xl text-bluey text-bold font-medium'> 
       <CircleIcon>
       <LocalShippingIcon/></CircleIcon> 
        PRODUCTS
@@ -33,8 +34,9 @@ const ProductDetail = () => (
     </Grid>
     </Grid>
     <br/>
-    
+    <div className='mx-8 md:mx-0'>
     <SimpleTable/>
+    </div>
     <br/>
     <div className='mx-8 md:mx-4'>
     <Typography variant='subtitle1' color='textSecondary'>
@@ -48,7 +50,9 @@ const ProductDetail = () => (
     Check out the Facilities provide by us! <br/> (by clicking the button down below)
     </Typography>
     </div>
-    <FacilitiesExtendedIcon/>
+    <div className='m-4'>
+    <MinimalButton/>
+    </div>
     <br/>
      </div>
 </div>

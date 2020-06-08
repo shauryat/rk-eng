@@ -1318,6 +1318,18 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
+"@zeit-ui/react-icons@^1.2.2":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@zeit-ui/react-icons/-/react-icons-1.2.2.tgz#92f8474c986b0a0f9f8afc30e354ac3d54631813"
+  integrity sha512-O0BVU6c9yLyW64DNN7+ovn3s+BtysQcxqKIWVofSnjbToTXaAob5BZXoV+QpEWrUod3olTzJzdw9/D3ha1YMiw==
+
+"@zeit-ui/react@^1.7.0-canary.1":
+  version "1.7.0-canary.1"
+  resolved "https://registry.yarnpkg.com/@zeit-ui/react/-/react-1.7.0-canary.1.tgz#aa377fcc66ac4aeffb03c1de23d02a4569f5525e"
+  integrity sha512-5YTYFoTCcKg0WwD90mHT8OYliETnwWC7TtOMvSuYU7jiLEmBT9gqWIIZEOztUc/NFm/Kdb6UKyzei93E1ugHBg==
+  dependencies:
+    styled-jsx "^3.2.5"
+
 acorn-node@^1.6.1:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/acorn-node/-/acorn-node-1.8.2.tgz#114c95d64539e53dede23de8b9d96df7c7ae2af8"
@@ -7739,7 +7751,7 @@ styled-components@^5.1.0:
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
 
-styled-jsx@3.3.0:
+styled-jsx@3.3.0, styled-jsx@^3.2.5:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-3.3.0.tgz#32335c1a3ecfc923ba4f9c056eeb3d4699006b09"
   integrity sha512-sh8BI5eGKyJlwL4kNXHjb27/a/GJV8wP4ElRIkRXrGW3sHKOsY9Pa1VZRNxyvf3+lisdPwizD9JDkzVO9uGwZw==

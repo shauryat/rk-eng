@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
+import { ZeitProvider } from '@zeit-ui/react';
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
@@ -26,7 +27,9 @@ export default function MyApp(props) {
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
+        <ZeitProvider>
         <Component {...pageProps} />
+        </ZeitProvider>
       </ThemeProvider>
     </React.Fragment>
   );

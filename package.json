@@ -11,6 +11,8 @@
     "@material-ui/icons": "^4.9.1",
     "@mui-treasury/components": "^1.4.0",
     "@mui-treasury/styles": "^1.7.0",
+    "@zeit-ui/react": "^1.7.0-canary.1",
+    "@zeit-ui/react-icons": "^1.2.2",
     "classnames": "2.2.6",
     "date-fns": "2.10.0",
     "imagemin-mozjpeg": "^9.0.0",

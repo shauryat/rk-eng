@@ -10,7 +10,7 @@ import PhoneExtendedIcon from '../components/FabIcons/Phone';
 const GoogleForm = () => (
     <div>
         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScQqZCHMp0Cw6xv3CvAAlQZf7bMmfnKz4qAXSh2_eRaInSjgw/formResponse" method="post">
-        <div className='md:mx-12 mt-4 text-indigo-400 text-center text-bold text-4xl font-medium'> 
+        <div className='md:mx-12 mt-4 text-bluey text-center text-bold text-4xl font-medium'> 
      Message Us</div>
      <p className='mx-4 mb-4 md:mx-24 text-center text-gray-600 text-lg md:text-base font-thin'>
          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam omnis distinctio beatae sunt aliquam explicabo, asperiores perspiciatis quos deleniti reiciendis sit molestias architecto maiores vitae accusamus. Illum, quod voluptatem.</p>     
