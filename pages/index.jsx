@@ -5,7 +5,6 @@ import AddressList from '../components/Address/AddressLayout';
 import Footer from '../components/footer/Footer';
 import Header from '../components/Future/Header';
 import Iarallax from '../components/parallax';
-import LazyLoad from 'react-lazy-load';
 
 
 const Index = () => (
@@ -27,9 +26,9 @@ const Index = () => (
          </div>  
          </div> */}
 
-        <LazyLoad>
-         <Iarallax imageUrl="https://www.brotherearth.com/en/tech/images/pic-sub-ecofactory.jpg"/>
-         </LazyLoad>
+        
+         <Iarallax />
+        
          {/* <div className='mt-4 md:mx-32'>
          <ParallaxCarousel/>
          </div> */}

@@ -1,98 +1,89 @@
-import React, { Component } from 'react';
+import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
 import SideDrawer from './SideDrawer';
 import { Desktop, MobileOnly, FontRoboto } from '../portfolio.styles';
-
+import PropTypes from 'prop-types';
 import { Menu } from '@zeit-ui/react-icons'
-
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
+import Hidden from "@material-ui/core/Hidden";
 
 import DropDown from './DropDown';
 
 
+function ElevationScroll(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = useScrollTrigger({
+      disableHysteresis: true,
+      threshold: 0,
+      target: window ? window() : undefined,
+    });
+  
+    return React.cloneElement(children, {
+      elevation: trigger ? 4 : 0,
+    });
+  }
+  
+  ElevationScroll.propTypes = {
+    children: PropTypes.element.isRequired,
+    /**
+     * Injected by the documentation to work in an iframe.
+     * You won't need it on your project.
+     */
+    window: PropTypes.func,
+  };
 
-class Header extends Component {
+const Header = (props) => {
 
-       state = { 
-           drawerOpen: false,
-           headerShow: false,
-             }
+    const [state, setState] = React.useState(false);
 
-        componentDidMount() {
-               window.addEventListener('scroll',this.handleScroll); 
-             }
+   const toggleDrawer = (value) => {
+        setState(value)
+    };
 
-    handleScroll = () => {
-
-if(window.scrollY > 0){
-    this.setState ({
-        headerShow:true
-    })
-}
- else {
-    this.setState ({
-        headerShow:false
-    })
-    
- }
-    }
-    
-    toggleDrawer = (value) => {
-        this.setState({
-    drawerOpen: value
-        })
-    }
-
-
-    render() {
-          
+              
         return (
             
+            <ElevationScroll {...props}>
             <div className='mb-16'>
             <AppBar 
             position="fixed"
-            style={{
-                backgroundColor: this.state.headerShow ? '#F7FAFC' : 'white' ,
-                boxShadow:this.state.headerShow ? '0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)' : 'none' ,
-                padding:'10px 0px',
-             }}>
+            style={{ padding:'10px 0px' }}>
         <Toolbar>
             <div style={{flexGrow:1}}>
-               <div className='text-bluey text-xl' > RK Engineering </div>
-               <div className='text-indigo-300' > Corporation </div>
+               <div className='text-white text-xl' > RK Engineering </div>
+               <div className='text-white' > Corporation </div>
             </div>
             
-           <Desktop>
-              <div className='text-gray-600 text-lg'>
+            <Hidden mdDown>
+              <div className='text-white text-lg'>
                   <FontRoboto>
-                  <div className='inline mx-4 hover:text-bluey'>Home</div>
-                  <div className='inline mx-4 hover:text-bluey'>Leadership</div>  
+                  <div className='inline mx-4 hover:text-gray-400'>Home</div>
+                  <div className='inline mx-4 hover:text-gray-400'>Leadership</div>  
                   <DropDown/>
                   </FontRoboto>
               </div>  
-           </Desktop>  
+              </Hidden>  
 
          
-            <MobileOnly> 
-                   <Menu color="#0070f3" onClick={()=> this.toggleDrawer(true)}/>
-             </MobileOnly>
-
+              <Hidden lgUp> 
+                   <Menu color="#fff" onClick={()=> setState(!state)}/>
+                   </Hidden>
              
 
               <SideDrawer
-                   open={this.state.drawerOpen}
-                  onClose={(value)=> this.toggleDrawer(value)}/>
-
-
+                   open={state}
+                  onClose={(value)=> toggleDrawer(value)}/>
                   
-       </Toolbar>
-       
+       </Toolbar>  
             </AppBar>   
                    </div>
+                   </ElevationScroll>
         );
     }
-}
+
 
 export default Header;

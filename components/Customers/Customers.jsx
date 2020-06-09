@@ -2,11 +2,9 @@ import React, { Component } from 'react';
 import PORTFOLIO_DATA from '../Data/Data.js';
 import ProjectCards from '../Cards/Projects';
 import ProjectCardsM from '../Cards/CustomerMCards';
-import { PreviewContainer, MobileOnly , FontChelsea, HorizontalList } from '../portfolio.styles';
-import BusinessIcon from '@material-ui/icons/Business';
-import SwipeableViews from 'react-swipeable-views';
-import CircleIcon from '../iconcircele.jsx';
+import { PreviewContainer, MobileOnly , HorizontalList } from '../portfolio.styles';
 import Iarallax2 from '../parallax2.jsx';
+import LazyLoad from 'react-lazy-load';
 
 
 class Customers extends Component {
@@ -40,7 +38,9 @@ constructor(props){
                   OUR ANCILLARIES  
         </div> */}
         <div className='-m-4 md:-mx-24'>
+          <LazyLoad>
         <Iarallax2 imageUrl="https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
+        </LazyLoad>
         </div>
 
       <MobileOnly>
