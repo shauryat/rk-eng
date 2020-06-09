@@ -41,11 +41,11 @@ function DropDown() {
       </button>
 
    { open ? (
-        <div className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg">
-          <div className="rounded-md bg-white shadow-xs">
-          <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-sm focus:outline-none focus:bg-gray-100 focus:text-gray-900">Flow Chart</a>
-        <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-sm focus:outline-none focus:bg-gray-100 focus:text-gray-900">Testing Facilities</a>
-        <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-sm focus:outline-none focus:bg-gray-100 focus:text-gray-900">Quality Promise</a>
+        <div className="origin-top-right absolute right-0 mt-2 w-56 shadow-lg">
+          <div className="bg-white shadow-xs">
+          <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-md focus:outline-none focus:bg-gray-100 focus:text-gray-900">Flow Chart</a>
+        <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-md focus:outline-none focus:bg-gray-100 focus:text-gray-900">Testing Facilities</a>
+        <a href="#" className="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 hover:rounded-md focus:outline-none focus:bg-gray-100 focus:text-gray-900">Quality Promise</a>
        
           </div>
         </div> ) : null }

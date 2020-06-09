@@ -33,7 +33,7 @@ const MinimalButton = () => {
 
     return (
         <React.Fragment>
-        <Button icon={<Archive />} aria-label="add" type="success" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+        <Button icon={<Archive />} effect='false' aria-label="add" type="success" aria-controls="simple-menu" aria-haspopup="false" onClick={handleClick}>
         Facilities</Button> 
 
          <Menu

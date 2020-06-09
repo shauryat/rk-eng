@@ -31,7 +31,7 @@ export default function MachineCard({name,description,imageUrl}) {
           />
           </LazyLoad>
         <CardContent>
-          <Typography gutterBottom variant="subtitle1" component="h5" color="primary">
+          <Typography gutterBottom variant="subtitle1" component="h1" color="primary">
             {name}         
              </Typography>
           <Typography variant="body2" color="textPrimary" component="p">
