@@ -4,7 +4,6 @@ import ProjectCards from '../Cards/Projects';
 import ProjectCardsM from '../Cards/CustomerMCards';
 import { PreviewContainer, MobileOnly , HorizontalList } from '../portfolio.styles';
 import Iarallax2 from '../parallax2.jsx';
-import LazyLoad from 'react-lazy-load';
 
 
 class Customers extends Component {
@@ -38,9 +37,9 @@ constructor(props){
                   OUR ANCILLARIES  
         </div> */}
         <div className='-m-4 md:-mx-24'>
-          <LazyLoad>
-        <Iarallax2 imageUrl="https://images.pexels.com/photos/257636/pexels-photo-257636.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
-        </LazyLoad>
+          
+        <Iarallax2 />
+        
         </div>
 
       <MobileOnly>

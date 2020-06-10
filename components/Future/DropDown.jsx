@@ -35,7 +35,7 @@ const DropDown = () => {
          TransitionComponent={Collapse}>
            
          <MenuItem component={Link} naked href="/facilities">Flow Chart</MenuItem>
-         <MenuItem component={Link} naked href="/testing">Testing Facilities</MenuItem>
+         <MenuItem component={Link} naked href="/Testing">Testing Facilities</MenuItem>
          <MenuItem>Quality Promise</MenuItem>
        </Menu>
        </React.Fragment>

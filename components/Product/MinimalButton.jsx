@@ -3,7 +3,7 @@ import { Archive } from '@zeit-ui/react-icons';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import React from 'react';
-import Collapse from '@material-ui/core/Collapse';
+import Fade from '@material-ui/core/Fade';
 import Link from '../../src/Link';
 
 
@@ -32,10 +32,10 @@ const MinimalButton = () => {
          anchorEl={anchorEl}
          open={Boolean(anchorEl)}
          onClose={handleClose}
-         TransitionComponent={Collapse}
+         TransitionComponent={Fade}
        >
          <MenuItem component={Link} naked href="/facilities">Flow Chart</MenuItem>
-         <MenuItem component={Link} naked href="/testing">Testing Facilities</MenuItem>
+         <MenuItem component={Link} naked href="/Testing">Testing Facilities</MenuItem>
          <MenuItem>Quality Promise</MenuItem>
        </Menu>
        </React.Fragment>

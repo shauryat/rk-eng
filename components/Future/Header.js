@@ -74,8 +74,8 @@ const Header = (props) => {
             position="fixed"
             style={{ padding:'10px 0px' }}>
         <Toolbar>
-            <div style={{flexGrow:1}}>
-               <div className='text-white text-xl' > RK ENGINEERING </div>
+            <div style={{flexGrow:1}} >
+               <div className='text-white text-xl'> RK ENGINEERING </div>
                <div className='text-white' > CORPORATION </div>
             </div>
             

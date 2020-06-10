@@ -1,7 +1,6 @@
-import { Parallax } from 'react-parallax';
 
  
-const Iarallax2 = ({imageUrl}) => (
+const Iarallax2 = () => (
     <div className='mb-8 bg-white'>
         {/* -----basic config-----*/}
         {/* <Parallax blur={{ min: 1, max: 5 }} bgImage={imageUrl} strength={500}>
