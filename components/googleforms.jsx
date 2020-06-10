@@ -1,11 +1,6 @@
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
-import { Paper } from '@material-ui/core';
-import MessageOutlinedIcon from '@material-ui/icons/MessageOutlined';
 import Container from '@material-ui/core/Container';
-import LandlineExtendedIcon from '../components/FabIcons/Landline';
-import MailExtendedIcon from '../components/FabIcons/Mail';
-import PhoneExtendedIcon from '../components/FabIcons/Phone';
 
 const GoogleForm = () => (
     <div>

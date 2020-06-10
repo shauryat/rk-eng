@@ -14,7 +14,7 @@ const image2 = 'https://i.imgur.com/imxGeLF.png';
 
 const ProductDetail = () => (
 
-<div className='md:mt-4 mb-8 md:mx-16 bg-gray-100 md:bg-white shadow-lg rounded-lg md:border-indigo-200 '>
+<div className='md:-mt-4 mb-8 md:mx-16 bg-gray-100 md:bg-white shadow-lg rounded-lg md:border-indigo-200 '>
         <br/>
         <Grid container spacing={1}>
             <Grid item md={9}>

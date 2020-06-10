@@ -16,7 +16,7 @@ const PORTFOLIO_DATA = [
     id :3,
     title:'Honda Scooters',
     description:'Using Covid-19 India API',
-    imageUrl:'https://cdn.freebiesupply.com/logos/large/2x/honda-11-logo-png-transparent.png'
+    imageUrl:'https://download.logo.wine/logo/Honda_Motorcycle_and_Scooter_India/Honda_Motorcycle_and_Scooter_India-Logo.wine.png'
 },
 
 {
@@ -29,25 +29,25 @@ const PORTFOLIO_DATA = [
     id :5,
     title:'Honda Siel Ltd.',
     description:'Next.js & Datacom CMS',
-    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+    imageUrl:'https://www.carlogos.org/car-logos/honda-logo-1700x1150-show.png'
 },
 {
     id :6,
     title:'Tata Motors',
     description:'Next.js & Datacom CMS',
-    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+    imageUrl:'https://www.carlogos.org/logo/Tata-Group-logo-3840x2160.png'
 },
 {
     id :7,
     title:'Escorts Ltd.',
     description:'Next.js & Datacom CMS',
-    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+    imageUrl:'https://www.enggwave.com/wp-content/uploads/2016/02/Escorts-Group-Logo.png'
 },
 {
     id :8,
     title:'TVS motorcycles',
     description:'Next.js & Datacom CMS',
-    imageUrl:'https://seekvectorlogo.com/wp-content/uploads/2017/12/honda-power-products-vector-logo-small.png'
+    imageUrl:'https://steelguru.com/uploads/news/tvs_motor_october_sales_up_by_26pct_60969.png'
 }
 ];
 

@@ -2,16 +2,15 @@ import Customers from '../components/Customers/Customers';
 import ProductDetail from '../components/Product/Product';
 import GoogleForm from '../components/googleforms';
 import AddressList from '../components/Address/AddressLayout';
-import Footer from '../components/footer/Footer';
-import Header from '../components/Future/Header';
 import Iarallax from '../components/parallax';
+import Layout from '../components/Layout';
 
 
 const Index = () => (
 
-  <div>    
-     <Header/>
-     {/* <div className='md:flex bg-gray-100'>
+  
+  <Layout>
+  {/* <div className='md:flex bg-gray-100'>
         <div className='md:mx-4 md:mt-16 lg:mt-24 text-center md:w-1/2'>
           <br/>
             <p className='text-indigo-300 text-4xl md:text-6xl font-medium'>Welcome To </p>
@@ -41,9 +40,8 @@ const Index = () => (
          </div>
          <br/>
            <AddressList/>
-           <Footer/>
         </div>
-      </div>
+      </Layout>
  
 )
 

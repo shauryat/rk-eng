@@ -17,7 +17,7 @@ export default function MailExtendedIcon() {
 
   return (
     <div>
-        <Fab variant="extended" color="primary" aria-label="add" className={classes.margin}>
+        <Fab  variant="extended" color="primary" aria-label="add" className={classes.margin}>
           <MailOutlineOutlinedIcon className={classes.extendedIcon} />
           rkec@airtelmail.in
         </Fab>

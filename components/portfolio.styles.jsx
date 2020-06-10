@@ -46,5 +46,13 @@ white-space: nowrap;
 
 `;
 
+export const GradientBackground = styled.div`
+
+background-color: #06bcfb;
+background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
+
+`;
+
+
 
 

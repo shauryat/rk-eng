@@ -17,7 +17,7 @@ export default function LandlineExtendedIcon() {
 
   return (
     <div>
-        <Fab size="small" variant="extended" color="secondary" aria-label="add" className={classes.margin}>
+        <Fab variant="extended" color="secondary" aria-label="add" className={classes.margin}>
           <PermPhoneMsgOutlinedIcon className={classes.extendedIcon} />
           012042831012
         </Fab>

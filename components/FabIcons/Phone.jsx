@@ -18,7 +18,7 @@ export default function PhoneExtendedIcon() {
 
   return (
     <div>
-        <Fab size="small" variant="extended" color="secondary" aria-label="add" className={classes.margin}>
+        <Fab variant="extended" color="secondary" aria-label="add" className={classes.margin}>
           <PhoneOutlinedIcon className={classes.extendedIcon} />
           9810162130
         </Fab>
