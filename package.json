@@ -32,7 +32,7 @@
     "react-socks": "^2.1.0",
     "react-swipeable-views": "^0.13.9",
     "remark": "11.0.2",
-    "remark-html": "10.0.0",
+    "remark-html": "13.0.2",
     "styled-components": "^5.1.0"
   },
   "devDependencies": {
